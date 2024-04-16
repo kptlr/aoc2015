@@ -1,0 +1,21 @@
+{
+  "name": "aoc2015",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Code 2015 in TypeScript",
+  "main": "src/aoc.ts",
+  "repository": "git@github.com:kptlr/aoc2015.git",
+  "author": "Petr Belyakov <keptelr@ya.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/aoc.js",
+    "dev": "ts-node ./src/aoc.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

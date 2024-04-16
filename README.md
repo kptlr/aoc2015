@@ -1,2 +1,2 @@
 # aoc2015
-Solutions for Advent of Code 2015 in JS.
+Solutions for Advent of Code 2015 in TypeScript.
