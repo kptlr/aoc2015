@@ -1,5 +1,5 @@
-import { sum } from '../../src/utils/fileUtil';
+import * as fileUtil from '../../src/utils/fileUtil';
 
-test('Складываем 1 + 1 и ожидаем увидеть 2', () => {
-    expect(sum(1, 2)).toBe(3);
+test('Читаем из тествого файла содержимое', () => {
+    expect(fileUtil.readInput('0', 'test').length).toBe(5);
 });
