@@ -34,5 +34,5 @@ export function day01(_arg0: string[]): any {
   throw new Error("Function not implemented.");
 }
 
-console.info(part01(readInputToStr("day01", "prod")));
-console.info(part02(readInputToStr("day01", "prod")));
+console.info("Part 01:", part01(readInputToStr("day01", "prod")));
+console.info("Part 02:", part02(readInputToStr("day01", "prod")));
