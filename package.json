@@ -18,7 +18,7 @@
     "build": "tsc",
     "start": "node ./dist/src/aoc.js",
     "dev": "ts-node ./src/aoc.ts",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "devDependencies": {
     "ts-node": "^10.9.2"
